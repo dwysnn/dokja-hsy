@@ -290,7 +290,7 @@
             }, 500);
 
             // Musik akan diputar di sini setelah tombol diklik
-            music.play().catch(error => {
+            music.play(music.m4a).catch(error => {
                 console.log("Autoplay blocked, or file not found.");
             });
         }
@@ -354,4 +354,5 @@
 </body>
 
 </html>
+
 
